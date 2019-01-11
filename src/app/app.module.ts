@@ -11,6 +11,7 @@ import { HeroesComponent } from './components/heroes/heroes.component';
 import { HeroesService } from './services/heroes.service';
 import { HeroeComponent } from './components/heroe/heroe.component';
 import { BuscadorComponent } from './components/buscador/buscador.component';
+import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.component';
 
 
 
@@ -31,7 +32,8 @@ const routes: Routes = [
     AboutComponent,
     HeroesComponent,
     HeroeComponent,
-    BuscadorComponent
+    BuscadorComponent,
+    HeroeTarjetaComponent
   ],
   imports: [
     RouterModule.forRoot(routes),
